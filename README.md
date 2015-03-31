@@ -17,7 +17,8 @@ output:
 - Find P2P AS of AS#9737
 
 ##Usage
-`bgpdump rib.********.****.bz2 -m > bgpdump-output.txt`
-`python bgpdump-output.txt`
+`$ bgpdump rib.********.****.bz2 -m > bgpdump-output.txt`
+
+`$ python bgpdump-output.txt`
 
 you can get `rib.********.****.bz2` from [http://archive.routeview.org](http://archive.routeview.org)
