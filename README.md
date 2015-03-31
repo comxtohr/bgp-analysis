@@ -16,9 +16,13 @@ output:
 - Find C2P AS of AS#9737
 - Find P2P AS of AS#9737
 
+##Feature
+- MapReduce model
+- Multi-Threads 
+
 ##Usage
 `$ bgpdump rib.********.****.bz2 -m > bgpdump-output.txt`
 
-`$ python bgpdump-output.txt`
+`$ python bgp.py bgpdump-output.txt`
 
 you can get `rib.********.****.bz2` from [http://archive.routeview.org](http://archive.routeview.org)
