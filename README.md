@@ -11,13 +11,13 @@ output:
 - Degree of AS - #AS plot
 - Degree of AS - #AS plot(log(x), log(y))
 - Degree of AS - #Prefix plot
-- Degree of AS - #Prefix plot(log(x), mean(y))
+- Degree of AS - #Prefix plot(ceiling(log(x)), mean(y))
 - Find P2C AS of AS#9737
 - Find C2P AS of AS#9737
 - Find P2P AS of AS#9737
 
 ##Usage
-`bgpdump ****.bz -m > bgpdump-output.txt`
+`bgpdump rib.********.****.bz2 -m > bgpdump-output.txt`
 `python bgpdump-output.txt`
 
-you can get `****.bz` from [http://archive.routeview.org](http://archive.routeview.org)
+you can get `rib.********.****.bz2` from [http://archive.routeview.org](http://archive.routeview.org)
